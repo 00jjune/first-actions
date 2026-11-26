@@ -37,5 +37,5 @@ jobs:
 
     - run: pip install ruff
     - run: ruff check . --fix
-    - run: ruff foramt .
+    - run: ruff format .
     
